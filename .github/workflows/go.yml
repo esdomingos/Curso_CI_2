@@ -2,10 +2,10 @@ name: Go
 
 on:
   push:
-    branches: [ Aula_1 ]
+    branches: [ "*" ]
   pull_request:
-    branches: [ Aula_1 ]
-
+    branches: [ "*" ]
+ 
 jobs:
 
   test:
